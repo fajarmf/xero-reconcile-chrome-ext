@@ -1,0 +1,20 @@
+{
+  "name": "Xero Simple Reconcile",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Help to click the OK buttons. Start from last page.",
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_title": "Reconcile!"
+  },
+  "permissions": [
+    "https://*/*",
+    "http://*/*",
+    "tabs"
+  ]
+}
