@@ -64,7 +64,8 @@ function runCheck(storeName) {
 }
 
 function oke2in() {
-    var storeName = "grand metropolitan";
+    var storeName = localStorage["storeName"];
+    console.log("storeName: ", storeName);
     var found = runCheck(storeName);
     if (found > 0) {
         setTimeout(oke2in, 5000);
